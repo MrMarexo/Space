@@ -22,8 +22,7 @@ public class Lerper : MonoBehaviour
 
     void Update()
     {
-        while (Input.GetMouseButtonDown(0))
-        sr.color = Color.Lerp(colors[curColorIndex], colors[nextColorIndex], 0.1f);
+        
 
     }
 
